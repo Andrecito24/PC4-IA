@@ -42,6 +42,24 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.ML": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.ML.LightGbm": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
